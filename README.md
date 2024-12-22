@@ -24,6 +24,9 @@ git clone https://github.com/GhassenAskri/langchain-rag.git
 ```bash
 pip install requirements
 ```
+4. Set your openai key as environement variable
+    - **Mac/Linux**: `export OPENAI_API_KEY='your-api-key'`
+    - **Windows**: `set OPENAI_API_KEY=your-api-key`
 
 
 ## Dependencies

@@ -1,13 +1,19 @@
 from langchain_openai import ChatOpenAI
 from langchain_openai.embeddings import OpenAIEmbeddings
+import os
 
 class OpenAI:
     """
     Static class containing LLM configurations and instances
     """
     
-    # Your OpenAI API key - Consider moving this to environment variables
-    OPENAI_API_KEY = "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"
+
+    OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+    
+    if not OPENAI_API_KEY:
+        raise ValueError("OPENAI_API_KEY environment variable is not set")
+   
+   
     
     @staticmethod
     def get_chat_model():
