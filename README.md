@@ -16,8 +16,14 @@ A Flask api that expose a retreival augmented generation task based an audio tra
 
 1. Install FFmpeg
     - **Windows**: Download from [FFmpeg website](https://ffmpeg.org/download.html) and add to PATH
-    - **Mac**: `brew install ffmpeg`
-    - **Linux**: `sudo apt-get install ffmpeg`
+    - **Mac**:
+       - ```bash
+         brew install ffmpeg
+         ```
+    - **Linux**:
+       - ```bash
+         sudo apt-get install ffmpeg
+         ```
 
 2. Clone the repository:
 ```bash
@@ -28,8 +34,14 @@ git clone https://github.com/GhassenAskri/langchain-rag.git
 pip install requirements
 ```
 4. Set your openai key as environement variable
-    - **Mac/Linux**: `export OPENAI_API_KEY='your-api-key'`
-    - **Windows**: `set OPENAI_API_KEY=your-api-key`
+    - **Mac/Linux**:
+        - ```bash
+          export OPENAI_API_KEY=your-api-key
+          ```
+    - **Windows**:
+        - ```bash
+          set OPENAI_API_KEY=your-api-key
+          ```
 
 ## Usage
 1. Go to the cloned repo
