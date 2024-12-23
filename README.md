@@ -2,6 +2,9 @@
 
 A Flask api that expose a retreival augmented generation task based an audio transcription.
 
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/43caafe4-6fc6-4f3e-80f0-8dec670e5fab" />
+
+
 ## Features
 
 - Download audio from YouTube videos in MP3 format
