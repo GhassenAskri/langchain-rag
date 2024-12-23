@@ -31,6 +31,16 @@ pip install requirements
     - **Mac/Linux**: `export OPENAI_API_KEY='your-api-key'`
     - **Windows**: `set OPENAI_API_KEY=your-api-key`
 
+## Usage
+1. Go to the cloned repo
+```bash
+python server.py 
+````
+2. Send post request 
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"text":"what is the dark web", "url":"https://www.youtube.com/watch?v=N3-zrhoBx6w&t=5s"}' http://localhost:5001/process
+```
+
 
 ## Dependencies
 
